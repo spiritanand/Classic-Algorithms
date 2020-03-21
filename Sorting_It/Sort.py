@@ -70,6 +70,3 @@ def Merge_Sorting():
 
     merge_sort(arr)
     print("The sorted list is :- {}".format(arr))
-
-
-Merge_Sorting()
