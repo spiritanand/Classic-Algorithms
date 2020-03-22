@@ -61,8 +61,8 @@ def Merge_Sorting():
         if len_arr < 2:
             return arr
         # We are splitting the arrays into two parts i.e., left and right.
-        left = arr[:n / 2]
-        right = arr[n / 2:]
+        left = arr[:round(len_arr/ 2)]
+        right = arr[round(len_arr/ 2):]
         # Recursive call to merge_sort
         merge_sort(left)
         merge_sort(right)
