@@ -17,4 +17,6 @@ def se1():
             break
         primes = primes[0:i]+list(filter(lambda x: x % num != 0, primes[i:]))
         i += 1
-    print(primes)
+    print([2] + primes)
+
+se1()
