@@ -18,5 +18,3 @@ def se1():
         primes = primes[0:i]+list(filter(lambda x: x % num != 0, primes[i:]))
         i += 1
     print([2] + primes)
-
-se1()
